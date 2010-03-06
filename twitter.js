@@ -1,5 +1,5 @@
 /*
-* Twitter Search Utility using Node.js (http://nodejs.org)
+* A Twitter Search using a very light-weight jQuery version running on Node.js (http://nodejs.org)
 * 
 * @date 06-Mar-2010
 * @author Eduardo Lundgren (eduardolundgren@gmail.com)
