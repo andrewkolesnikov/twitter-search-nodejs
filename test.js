@@ -1,27 +1,28 @@
 /*
 * <p>To run this example on Node.js type on the command line: <strong>node test.js</strong></p>
 * 
-* <p>Invoking <code>twitter.search('nodejs')</code> will print on the command
+* <p>Invoking <code>twitter.search('from:eduardolundgren')</code> will print on the command
 * line the search results for the query "nodejs".</p>
 *
 * <p>Example:</p>
 *
-* Results 1 - 15 for nodejs. (0.030064 seconds)
-* @jacek_becela [  #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861 /via @ryah  ]
-* @metapandava [  Hmm. http://nodejs.org/ + http://jsclass.jcoglan.com/ = a match made in heaven? Or me clinging too tightly to the familiar?  ]
-* @ciaran_j [  RT @ryah: #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861  ]
-* @vlahupetar [  RT @ryah: #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861  ]
-* @elbartus [  RT @ryah: #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861  ]
-* @streetofmysoul [  Node.JS is cool http://nodejs.org/  ]
-* @dloss [  RT @hugs: &quot;JavaScript: It’s Not Just for Browsers Any More&quot; #nodejs #pragpub http://bit.ly/96xUjC  ]
-* @kusor [  RT @ryah: #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861  ]
-* @Joshua_C [  It would be interesting to build a 'no dependence plugin' with nodejs http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf #nodejs  ]
-* @alexbepple [  RT @zoftie: #nodejs has gotten its own package management system now! #kiwi. #nodejs going to be the next big thing, #imo  ]
-* @woongy [  node.js: an evented I/O for V8 javascript. http://nodejs.org/jsconf.pdf  ]
-* @bengl [  RT @ryah #nodejs v0.1.31 released without huge API changes. http://bit.ly/b0xDMe  ]
-* @raycmorgan [  #nodejs v0.1.31 released without huge API changes. http://groups.google.com/group/nodejs/msg/f9f789948577e861 (via @ryah)  ]
-* @tjholowaychuk [  hopes slicehost will sponsor the #kiwi nodejs package manager server  ]
-* @alrayyes [  NodeJs, I'm lovin it! #nodejs  ]
+Results 1 - 15 for from%3Aeduardolundgren. (0.73769 seconds)
+
+@eduardolundgren [  A #nodejs Twitter Search using a very light-weight #jQuery version http://github.com/eduardolundgren/twitter-search-nodejs  ]
+@eduardolundgren [  All #JavaScript frameworks in the world has a reference to some Dean Edwards piece of code.  ]
+@eduardolundgren [  RT @rotty3000: With git I can easily share my branches between desktop/laptop when I travel... #Liferay in git is great!  ]
+@eduardolundgren [  RT @InsomniacSoup: After spending a day with Liferay 6.0, I can safely say that Liferay will one day save our world from utter annihilation. #Liferay #FTW  ]
+@eduardolundgren [  The infinity is so close. (1.7976931348623158e+308 == Infinity) is false, but (1.7976931348623159e+308 == Infinity) is true. #wtfjs  ]
+@eduardolundgren [  #Liferay Portal 6 Preview Released, check it out.  http://www.liferay.com/web/brian.chan/blog/-/blogs/liferay-portal-6-preview-released  ]
+@eduardolundgren [  I'm so sad I lost the #crockonjs yesterday.  ]
+@eduardolundgren [  RT @yuilibrary: YUI 3.1.0 preview release 1. New widget/component foundation, improved Gallery integration, &amp; more: http://bit.ly/bvf6hz  ]
+@eduardolundgren [  Writing documentation for Alloy UI. YUI Docs made it more fun.  ]
+@eduardolundgren [  RT @sez11a: #Liferay in Action is now available as a MEAP, from @ManningBooks! Working hard on this: http://tinyurl.com/yabeej8 #fb #in  ]
+@eduardolundgren [  @rotty3000 We miss you on core!  ]
+@eduardolundgren [  My first experience with #Opera 10.50 for #Mac was: &quot;A problem has occurred, forcing Opera to close.&quot;  ]
+@eduardolundgren [  Working on bug fixes for Liferay 6.0 preview release.  ]
+@eduardolundgren [  http://twitpic.com/15ock3 - My #YUI3 t-shirt arrived, thanks YUI guys.  ]
+@eduardolundgren [  JavaScript... ++[ [] ][ +[] ] == 1; //true http://news.ycombinator.com/item?id=1154338  ]
 */
 var TwitterSearch = require("./twitter").Twitter;
 
